@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker build -t dgageot/fortune fortune
 docker build -t dgageot/git git
 docker build -t dgageot/eclipse eclipse
 docker build -t dgageot/jug jug
