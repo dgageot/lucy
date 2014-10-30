@@ -5,6 +5,4 @@ TODO
 + Regler les couleurs qui ne passent pas bien sur un video
   + ROUGE
   + BLEU FONCE
-+ Selection dans tmux
-+ Scroll dans tmux
 + Meme couleurs dans more and vi ?
