@@ -1,3 +1,3 @@
-FROM google/debian:wheezy
+FROM debian:wheezy
 
 CMD echo Hello World

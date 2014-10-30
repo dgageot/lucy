@@ -15,3 +15,8 @@
 ## Run kubernetes
 
 	docker run --rm -ti --volumes-from gcloud-config -v $HOME/.kubernetes_auth:/root/.kubernetes_auth dgageot/kube list pods
+
+
+## Fix boot2docker time drift
+
+	boot2docker ssh sudo date -u -D "%Y%m%d%H%M.%S" --set "$(date -u +%Y%m%d%H%M.%S)"
