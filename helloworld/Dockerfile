@@ -1,3 +1,3 @@
 FROM debian:wheezy
 
-CMD echo Hello World
+CMD echo "Hello World"
